@@ -1,5 +1,11 @@
 # AI Task Management System 
 Submission Document
+
+<img width="805" height="733" alt="image" src="https://github.com/user-attachments/assets/2596b8d2-58f9-49dd-8008-5a4d88798579" />
+
+
+<img width="425" height="236" alt="image" src="https://github.com/user-attachments/assets/7fff57fa-0dbe-4f1d-9162-dec9e7005204" />
+
 # 1. Introduction
 
 This project implements a fully functional task management system that understands natural-language commands. It supports task extraction, priority detection, due-date parsing, task categorization, progress tracking, reminders, daily summaries, and task breakdown. The system uses the Gemini API for natural language processing, SQLite as the database, and Python for backend logic.
