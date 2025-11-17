@@ -1,12 +1,12 @@
 # Task Management System Using LLM-Based Natural Language Processing
 Submission Document
-1. Introduction
+# 1. Introduction
 
 This project implements a fully functional task management system that understands natural-language commands. It supports task extraction, priority detection, due-date parsing, task categorization, progress tracking, reminders, daily summaries, and task breakdown. The system uses the Gemini API for natural language processing, SQLite as the database, and Python for backend logic.
 
 The implementation meets all assignment requirements for an LLM-powered task manager with a CLI interface and automated scheduling.
 
-2. System Overview
+# 2. System Overview
 
 The system allows the user to create tasks simply by typing natural-language instructions, such as:
 
@@ -26,7 +26,7 @@ The backend stores this data in a SQLite database, manages task status, and sche
 
 Additionally, the system can break down large tasks into subtasks and supports progress tracking through marking tasks as completed.
 
-3. Architecture
+# 3. Architecture
 
 The system follows a modular architecture:
 
@@ -91,7 +91,7 @@ Supports terms like today, tomorrow, morning, evening, weekdays
 
 Stores GEMINI_API_KEY securely
 
-4. Database Design
+# 4. Database Design
 
 SQLite database file: tasks.db
 
@@ -106,7 +106,7 @@ status	TEXT	pending or done
 
 This structure satisfies all requirements for storage, retrieval, querying, and progress manipulation.
 
-5. Natural Language Processing
+# 5. Natural Language Processing
 
 The system uses Gemini 2.0 Flash API to interpret natural-language commands. The model is configured with strict instructions to always output structured JSON.
 
@@ -124,7 +124,7 @@ Handles code-fenced output and extracts only valid JSON.
 
 This modular NLP design ensures consistency, avoids runtime errors, and allows the scheduling module to use due dates reliably.
 
-6. Backend Logic and Flow
+# 6. Backend Logic and Flow
 
 Below is the system workflow:
 
@@ -146,7 +146,7 @@ Reminders are triggered at scheduled times.
 
 This satisfies required functionality and productivity features.
 
-7. Features Implemented
+# 7. Features Implemented
 
 The following assignment requirements are fully met:
 
@@ -202,7 +202,7 @@ Run the application:
 
 python app.py
 
-9. Usage Examples
+# 9. Usage Examples
 
 Below are sample commands supported by the system.
 
@@ -230,6 +230,6 @@ list done
 Exit
 exit
 
-10. Conclusion
+# 10. Conclusion
 
 This project implements a complete task management assistant based on LLM-powered natural-language processing. It meets all assignment requirements including task parsing, NLP understanding, scheduling, progress tracking, and documentation. The modular architecture ensures extensibility, maintainability, and accurate task extraction.
